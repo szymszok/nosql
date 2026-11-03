@@ -1,7 +1,56 @@
-[
-  { "code": "CS101", "title": "Introduction to Computer Science", "instructor": "John Doe" },
-  { "code": "CS102", "title": "Data Structures & Algorithms", "instructor": "Jane Smith" },
-  { "code": "CS103", "title": "Relational Databases & SQL", "instructor": "Alan Turing" },
-  { "code": "CS104", "title": "Object-Oriented Programming in Java", "instructor": "Grace Hopper" },
-  { "code": "CS105", "title": "Web Development Fundamentals", "instructor": "Tim Berners-Lee" }
-]
+{
+  "university": "Tech University",
+  "semester": 5,
+  "courseList": [
+  { "code": "CS101", 
+  "title": "Introduction to Computer Science",
+  "enrolledStudents": [{"StudentID": 1, "finalGrade": 5}, {"StudentID": 2, "finalGrade": 2}],
+  "instructor": {
+    "fullName": "John Doe",
+    "academicTitle": "PhD",
+    "email": "john.doe@techuniversity.edu"
+  } 
+  },
+
+  { "code": "CS102", 
+  "title": "Data Structures & Algorithms", 
+  "enrolledStudents": [{"StudentID": 1, "finalGrade": 5}, {"StudentID": 2, "finalGrade": 2}],
+  "instructor": {
+    "fullName": "Jane Smith",
+    "academicTitle": "Dr.",
+    "email": "jane.smith@techuniversity.edu"
+  } 
+  },
+
+  { "code": "CS103", 
+  "title": "Relational Databases & SQL", 
+  "enrolledStudents": [{"StudentID": 1, "finalGrade": 5}, {"StudentID": 2, "finalGrade": 2}],
+  "instructor": {
+    "fullName": "Alan Turing",
+    "academicTitle": "Dr.",
+    "email": "alan.turing@techuniversity.edu"
+  } 
+  },
+
+  { "code": "CS104", 
+  "title": "Object-Oriented Programming in Java", 
+  "enrolledStudents": [{"StudentID": 1, "finalGrade": 5}, {"StudentID": 2, "finalGrade": 2}],
+  "instructor": {
+    "fullName": "Grace Hopper",
+    "academicTitle": "Dr.",
+    "email": "grace.hopper@techuniversity.edu"
+  } 
+  },
+
+  { "code": "CS105", 
+  "title": "Web Development Fundamentals", 
+  "enrolledStudents": [{"StudentID": 1, "finalGrade": 5}, {"StudentID": 2, "finalGrade": 2}],
+  "instructor": {
+    "fullName": "Tim Berners-Lee",
+    "academicTitle": "Dr.",
+    "email": "tim.berners-lee@techuniversity.edu"
+  } 
+  }
+  ]
+}
+

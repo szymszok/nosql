@@ -1,0 +1,36 @@
+{
+  "storeName": "RTV EURO AGD",
+  "isActive": true,
+  "lastUpdated": "2026-11-03T10:35:50Z",
+  "products": [{
+    "id": 1,
+    "name": "SmartTV",
+    "price": 1999.99,
+    "tags": ["electronics", "television", "smart"],
+    "specs": {
+        "screensize": "55 inches",
+        "resolution": "4K"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Gaming laptop",
+    "price": 3469.50,
+    "tags": ["electronics", "gaming", "laptop"],
+    "specs": {
+        "CPU": "Intel Core i7 12th Gen",
+        "GPU": "NVIDIA GeForce RTX 3080"
+    }
+  },
+    {
+        "id": 3,
+        "name": "Smartphone",
+        "price": 860.00,
+        "tags": ["electronics", "phone"],
+        "specs": {
+            "OS": "Android",
+            "Storage": "256GB"
+        }
+    }
+  ]
+}   
