@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory>
+    <storeName>RTV EURO AGD</storeName>
+    <isActive>True</isActive>
+    <lastUpdated>2026-11-10</lastUpdated>
+    <products>
+        <id>1</id>
+        <name>gaming laptop</name>
+        <price>890</price>
+        <tags>["gaming", "laptop", "electronics"]</tags>
+        <specs>
+            <manufacturer>Lenovo</manufacturer>
+            <warrantyMonths>12</warrantyMonths>
+        </specs>
+    </products>
+</inventory>

@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<courses>
-  <course code="CS101">
-    <title>Introduction to Computer Science</title>
-    <instructor>John Doe</instructor>
-  </course>
-  <course code="CS102">
-    <title>Data Structures &amp; Algorithms</title>
-    <instructor>Jane Smith</instructor>
-  </course>
-</courses>
+<universityData university="Tech university" semester="5">
+  <courses>
+    <course code="CS101">
+      <title>Introduction to Computer Science</title>
+      <instructor>
+        <fullName> John Doe</fullName>
+        <academicTitle>Doktor habilitowany</academicTitle>
+        <email>JohnDoe@example.com</email>
+      </instructor>
+      <enrolledStudents>
+        <student>
+          <studentId>1</studentId>
+          <finalGrade>4</finalGrade>
+        </student>
+        <student>
+          <studentId>2</studentId>
+          <finalGrade>5</finalGrade>
+        </student>
+      </enrolledStudents>
+    </course>
+    <course code="CS102">
+      <title>Data Structures &amp; Algorithms</title>
+      <instructor>
+        <fullName> Jane Smith</fullName>
+        <academicTitle>Doktor habilitowany</academicTitle>
+        <email>JaneSmith@example.com</email>
+      </instructor>
+      <enrolledStudent>
+        <student>
+          <studentId>3</studentId>
+          <finalGrade>2</finalGrade>
+        </student>
+        <student>
+          <studentId>4</studentId>
+          <finalGrade>2</finalGrade>
+        </student>
+      </enrolledStudent>
+    </course>
+  </courses>
+</universityData>
