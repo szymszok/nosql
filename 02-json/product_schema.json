@@ -1,10 +1,10 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$schema":"https://json-schema.org/draft-07/schema#",
     "type": "object",
     "properties": {
         "ProductId": {"type": "integer"},
         "title": {"type": "string", "minLength": 3},
-        "price": {"type":"integer", "minimum": 0.01},
+        "price": {"type":"number", "minimum": 0.01},
         "category": {"type": "string", "enum": ["electronics", "books", "clothing"]},
         "inStock": {"type": "boolean"}
     },

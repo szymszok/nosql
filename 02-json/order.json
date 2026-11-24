@@ -1,0 +1,20 @@
+{
+  "orderId": "ORD-2026-8841",
+  "customer": {
+    "fullName": "Anna Kowalska",
+    "email": "anna.kowalska@example.com"
+  },
+  "items": [
+    {
+      "sku": "LAPTOP-PRO-15",
+      "quantity": 1,
+      "unitPrice": 1499.99
+    },
+    {
+      "sku": "USB-C-HUB",
+      "quantity": 2,
+      "unitPrice": 39.50
+    }
+  ],
+  "status": "pending"
+}

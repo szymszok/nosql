@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order>
+    <orderId>12679043</orderId>
+    <customer>
+        <fullName>Szymon Marszałek</fullName>
+        <email>szymon@gmail.com</email>
+    </customer>
+    <items>
+        <sku>Laptop</sku>
+        <quantity>3</quantity>
+        <unitPrice>1660.50</unitPrice>
+    </items>
+    <status>pending</status>
+</order>
